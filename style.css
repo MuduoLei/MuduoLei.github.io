@@ -2,7 +2,11 @@
    background-color:silver;
    color:blue;
   }
-  h2{
-   background-color:orange;
-   colour:green
+  h2 {
+      background-color: orange;
+      colour: green
+  }
+
+  ::selection{
+      color:#f00;
   }
