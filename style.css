@@ -10,3 +10,29 @@
   ::selection{
       color:#f00;
   }
+
+  @keyframes change {
+      from{
+          margin-left:10px;
+          background:green;
+      }
+      20%{
+          margin-left: 30px;
+          background: red;
+      }
+      to
+      {
+          margin-left: 100px;
+          background: blue;
+      }
+  }
+
+  #d1{
+      width:150px;
+      height:150px;
+      boarder:1px solid black;
+      -webkit-animation-direction: alternate;
+      -moz-animation-direction: alternate;
+      -o-animation-direction: alternate;
+      animation : change 5s;
+  }
