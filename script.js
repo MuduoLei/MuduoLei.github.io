@@ -1,3 +1,3 @@
-printMsg(){
+function printMsg() {
  document.write('welcome');
 }
