@@ -1,0 +1,3 @@
+printMsg(){
+ document.write('welcome');
+}
